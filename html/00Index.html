@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>R: Miscellaneous microarray data maniplation functions.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="R.css">
+</head><body>
+<h1> Miscellaneous microarray data maniplation functions.
+<img class="toplogo" src="../../../doc/html/logo.jpg" alt="[R logo]">
+</h1>
+<hr>
+<div align="center">
+<a href="../../../doc/html/packages.html"><img src="../../../doc/html/left.jpg" alt="[Up]" width="30" height="30" border="0"></a>
+<a href="../../../doc/html/index.html"><img src="../../../doc/html/up.jpg" alt="[Top]" width="30" height="30" border="0"></a>
+</div><h2>Documentation for package &lsquo;SmithLabArray&rsquo; version 0.5.9</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td width="25%"><a href="affyClinWeb.html">affyClinWeb</a></td>
+<td>Generate an annotated AffyBatch</td></tr>
+<tr><td width="25%"><a href="affymap.html">affymap</a></td>
+<td>Mapping between GeneST cartridge and GeneTitan probe identifiers</td></tr>
+<tr><td width="25%"><a href="altSpliceAnova.html">altSpliceAnova</a></td>
+<td>Calculate differential splicing metrics by fitting a linear model to each gene and looking for exon-variable interactions.</td></tr>
+<tr><td width="25%"><a href="altSpliceCorrelation.html">altSpliceCorrelation</a></td>
+<td>Calculate differential splicing metrics based on Pearson correlation coefficients</td></tr>
+<tr><td width="25%"><a href="altSpliceLimma.html">altSpliceLimma</a></td>
+<td>Calculate differential splicing metrics based on Splice Index using the limma package</td></tr>
+<tr><td width="25%"><a href="altSpliceMaxZ.html">altSpliceMaxZ</a></td>
+<td>Calculate differential splicing metrics based on measurement of exon Z scores</td></tr>
+<tr><td width="25%"><a href="altSpliceMclust.html">altSpliceMclust</a></td>
+<td>Calculate differential splicing metrics by defining core and outlier exons for each gene</td></tr>
+<tr><td width="25%"><a href="annotateExons.html">annotateExons</a></td>
+<td>A function used to annotate ExpressionSets and data frames containing exon-level probset identifiers.</td></tr>
+<tr><td width="25%"><a href="annotateExons-methods.html">annotateExons-method</a></td>
+<td>Retrieve gene-level annotation for an object containing exon-level probeset identifiers.</td></tr>
+<tr><td width="25%"><a href="annotateExons-methods.html">annotateExons-methods</a></td>
+<td>Retrieve gene-level annotation for an object containing exon-level probeset identifiers.</td></tr>
+<tr><td width="25%"><a href="assignEsetGender.html">assignEsetGender</a></td>
+<td>Calculation of subject genders from ExpressionSet chrY probesets</td></tr>
+<tr><td width="25%"><a href="batchQC.html">batchQC</a></td>
+<td>Run quality metrics on a large number of arrays, processed in batches.</td></tr>
+<tr><td width="25%"><a href="batchQC-methods.html">batchQC-method</a></td>
+<td>Run quality metrics on a large number of arrays, processed in batches.</td></tr>
+<tr><td width="25%"><a href="batchQC-methods.html">batchQC-methods</a></td>
+<td>Run quality metrics on a large number of arrays, processed in batches.</td></tr>
+<tr><td width="25%"><a href="batchVSN.html">batchVSN</a></td>
+<td>A function which allows the user to normalise a large data set using VSN.</td></tr>
+<tr><td width="25%"><a href="calcGeneNormExons.html">calcGeneNormExons</a></td>
+<td>Normalize exon-level signals using gene-level signals</td></tr>
+<tr><td width="25%"><a href="ComBatEset.html">ComBatEset</a></td>
+<td>Combatting batch effects when combining batches of gene expression microarray data</td></tr>
+<tr><td width="25%"><a href="deriveSignature.html">deriveSignature</a></td>
+<td>Automated signature detection.</td></tr>
+<tr><td width="25%"><a href="drawMadFilteredHeatMap.html">drawMadFilteredHeatMap</a></td>
+<td>Simple function to plot a heatmap of the genes which vary the most in a given ExpressionSet.</td></tr>
+<tr><td width="25%"><a href="drugClinWeb.html">drugClinWeb</a></td>
+<td>Annotate a dataset with drug treatment information from the clinical database.</td></tr>
+<tr><td width="25%"><a href="filterByDABG.html">filterByDABG</a></td>
+<td>Filter probes out from a data object where they fail the DABG filter.</td></tr>
+<tr><td width="25%"><a href="filterByDABG-methods.html">filterByDABG-method</a></td>
+<td>Filter probes out from a data object where they fail the DABG filter.</td></tr>
+<tr><td width="25%"><a href="filterByDABG-methods.html">filterByDABG-methods</a></td>
+<td>Filter probes out from a data object where they fail the DABG filter.</td></tr>
+<tr><td width="25%"><a href="findAssayFiles.html">findAssayFiles</a></td>
+<td>Retrieve a list of file names from the clinical database</td></tr>
+<tr><td width="25%"><a href="getAllSignatures.html">getAllSignatures</a></td>
+<td>Automated signature detection for all variables in an ExpressionSet.</td></tr>
+<tr><td width="25%"><a href="getPairwiseDiffs.html">getPairwiseDiffs</a></td>
+<td>Automated detection of differentially expressed genes.</td></tr>
+<tr><td width="25%"><a href="getVariablePairwiseDiffs.html">getVariablePairwiseDiffs</a></td>
+<td>Automated detection of differentially expressed genes for all possible values of a variable.</td></tr>
+<tr><td width="25%"><a href="getVariableSignatures.html">getVariableSignatures</a></td>
+<td>Automated signature detection for all possible values of a variable.</td></tr>
+<tr><td width="25%"><a href="heatmapByGOCat.html">heatmapByGOCat</a></td>
+<td>Plot a set of heatmaps from a data set using a selected set of GO categories.</td></tr>
+<tr><td width="25%"><a href="heatmapProbeSubsets.html">heatmapProbeSubsets</a></td>
+<td>Plot a set of heatmaps from a data set using a selected set of probe lists.</td></tr>
+<tr><td width="25%"><a href="hmcol.html">hmcol</a></td>
+<td>Convenient colour gradients for heat maps.</td></tr>
+<tr><td width="25%"><a href="importAffyData.html">importAffyData</a></td>
+<td>Affymetrix data import</td></tr>
+<tr><td width="25%"><a href="makeExonChrData.html">makeExonChrData</a></td>
+<td>Map an exon-annotated ExpressionSet onto chromosome coordinates</td></tr>
+<tr><td width="25%"><a href="oligoClinWeb.html">oligoClinWeb</a></td>
+<td>Generate an annotated GeneFeatureSet</td></tr>
+<tr><td width="25%"><a href="output2MEV.html">output2MEV</a></td>
+<td>Export ExpressionSet data in a format compatible with MeV</td></tr>
+<tr><td width="25%"><a href="parseARR.html">parseARR</a></td>
+<td>Parsing ARR files into R data structures.</td></tr>
+<tr><td width="25%"><a href="plotArrayHopach.html">plotArrayHopach</a></td>
+<td>A simple HOPACH heatmap plotting function.</td></tr>
+<tr><td width="25%"><a href="plotExonGenomeMap.html">plotExonGenomeMap</a></td>
+<td>Plotting exon-level expression against genomic location.</td></tr>
+<tr><td width="25%"><a href="plotGeneExonNorm.html">plotGeneExonNorm</a></td>
+<td>Plotting exon-level expression against genomic location.</td></tr>
+<tr><td width="25%"><a href="plotPCA.html">plotPCA</a></td>
+<td>ExpressionSet PCA plot</td></tr>
+<tr><td width="25%"><a href="plotQcPCA.html">plotQcPCA</a></td>
+<td>Plot results of PCA-based QC filtering.</td></tr>
+<tr><td width="25%"><a href="probablyExpressed.html">probablyExpressed</a></td>
+<td>Automated detection of "probably" expressed genes</td></tr>
+<tr><td width="25%"><a href="qcPCA.html">qcPCA</a></td>
+<td>PCA-based QC filtering.</td></tr>
+<tr><td width="25%"><a href="quantileColorHM.html">quantileColorHM</a></td>
+<td>A simple wrapper for the gplots heatmap.2 function with quantile-adjusted color key.</td></tr>
+<tr><td width="25%"><a href="reannoClinWeb.html">reannoClinWeb</a></td>
+<td>Reannotate data objects using the clinical database</td></tr>
+<tr><td width="25%"><a href="rgClinWeb.html">rgClinWeb</a></td>
+<td>Generate an annotated RGList</td></tr>
+<tr><td width="25%"><a href="rgcol.html">rgcol</a></td>
+<td>Convenient colour gradients for heat maps.</td></tr>
+<tr><td width="25%"><a href="runAffyQC.html">runAffyQC</a></td>
+<td>A lightweight QC reporting function for use with Affymetrix data.</td></tr>
+<tr><td width="25%"><a href="subsetGeneExonData.html">subsetGeneExonData</a></td>
+<td>Retrieve a subset of expression data pertaining to a given gene.</td></tr>
+<tr><td width="25%"><a href="subsetGeneExonData-methods.html">subsetGeneExonData-method</a></td>
+<td>Retrieve a subset of expression data pertaining to a given gene.</td></tr>
+<tr><td width="25%"><a href="subsetGeneExonData-methods.html">subsetGeneExonData-methods</a></td>
+<td>Retrieve a subset of expression data pertaining to a given gene.</td></tr>
+<tr><td width="25%"><a href="titanVSN.html">titanVSN</a></td>
+<td>Merging GeneTitan and Affy cartridge data sets</td></tr>
+<tr><td width="25%"><a href="vsnrma.html">vsnrma</a></td>
+<td>Wrapper function to ensure that the correct rma() function is called.</td></tr>
+<tr><td width="25%"><a href="vsnrma-methods.html">vsnrma-method</a></td>
+<td>Normalize data using VSN and RMA.</td></tr>
+<tr><td width="25%"><a href="vsnrma-methods.html">vsnrma-methods</a></td>
+<td>Normalize data using VSN and RMA.</td></tr>
+</table>
+</body></html>

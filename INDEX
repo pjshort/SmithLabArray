@@ -1,0 +1,91 @@
+ComBatEset              Combatting batch effects when combining batches
+                        of gene expression microarray data
+affyClinWeb             Generate an annotated AffyBatch
+affymap                 Mapping between GeneST cartridge and GeneTitan
+                        probe identifiers
+altSpliceAnova          Calculate differential splicing metrics by
+                        fitting a linear model to each gene and looking
+                        for exon-variable interactions.
+altSpliceCorrelation    Calculate differential splicing metrics based
+                        on Pearson correlation coefficients
+altSpliceLimma          Calculate differential splicing metrics based
+                        on Splice Index using the limma package
+altSpliceMaxZ           Calculate differential splicing metrics based
+                        on measurement of exon Z scores
+altSpliceMclust         Calculate differential splicing metrics by
+                        defining core and outlier exons for each gene
+annotateExons           A function used to annotate ExpressionSets and
+                        data frames containing exon-level probset
+                        identifiers.
+annotateExons-methods   Retrieve gene-level annotation for an object
+                        containing exon-level probeset identifiers.
+assignEsetGender        Calculation of subject genders from
+                        ExpressionSet chrY probesets
+batchQC                 Run quality metrics on a large number of
+                        arrays, processed in batches.
+batchQC-methods         Run quality metrics on a large number of
+                        arrays, processed in batches.
+batchVSN                A function which allows the user to normalise a
+                        large data set using VSN.
+calcGeneNormExons       Normalize exon-level signals using gene-level
+                        signals
+deriveSignature         Automated signature detection.
+drawMadFilteredHeatMap
+                        Simple function to plot a heatmap of the genes
+                        which vary the most in a given ExpressionSet.
+drugClinWeb             Annotate a dataset with drug treatment
+                        information from the clinical database.
+filterByDABG            Filter probes out from a data object where they
+                        fail the DABG filter.
+filterByDABG-methods    Filter probes out from a data object where they
+                        fail the DABG filter.
+findAssayFiles          Retrieve a list of file names from the clinical
+                        database
+getAllSignatures        Automated signature detection for all variables
+                        in an ExpressionSet.
+getPairwiseDiffs        Automated detection of differentially expressed
+                        genes.
+getVariablePairwiseDiffs
+                        Automated detection of differentially expressed
+                        genes for all possible values of a variable.
+getVariableSignatures   Automated signature detection for all possible
+                        values of a variable.
+heatmapByGOCat          Plot a set of heatmaps from a data set using a
+                        selected set of GO categories.
+heatmapProbeSubsets     Plot a set of heatmaps from a data set using a
+                        selected set of probe lists.
+hmcol                   Convenient colour gradients for heat maps.
+importAffyData          Affymetrix data import
+makeExonChrData         Map an exon-annotated ExpressionSet onto
+                        chromosome coordinates
+oligoClinWeb            Generate an annotated GeneFeatureSet
+output2MEV              Export ExpressionSet data in a format
+                        compatible with MeV
+parseARR                Parsing ARR files into R data structures.
+plotArrayHopach         A simple HOPACH heatmap plotting function.
+plotExonGenomeMap       Plotting exon-level expression against genomic
+                        location.
+plotGeneExonNorm        Plotting exon-level expression against genomic
+                        location.
+plotPCA                 ExpressionSet PCA plot
+plotQcPCA               Plot results of PCA-based QC filtering.
+probablyExpressed       Automated detection of "probably" expressed
+                        genes
+qcPCA                   PCA-based QC filtering.
+quantileColorHM         A simple wrapper for the gplots heatmap.2
+                        function with quantile-adjusted color key.
+reannoClinWeb           Reannotate data objects using the clinical
+                        database
+rgClinWeb               Generate an annotated RGList
+rgcol                   Convenient colour gradients for heat maps.
+runAffyQC               A lightweight QC reporting function for use
+                        with Affymetrix data.
+subsetGeneExonData      Retrieve a subset of expression data pertaining
+                        to a given gene.
+subsetGeneExonData-methods
+                        Retrieve a subset of expression data pertaining
+                        to a given gene.
+titanVSN                Merging GeneTitan and Affy cartridge data sets
+vsnrma                  Wrapper function to ensure that the correct
+                        rma() function is called.
+vsnrma-methods          Normalize data using VSN and RMA.

@@ -1,0 +1,71 @@
+importFrom(gplots, heatmap.2)
+
+importClassesFrom(Biobase, ExpressionSet)
+
+importFrom(affy, ReadAffy, image, rma, plotDensity)
+
+importMethodsFrom(Biobase, exprs, fvarLabels, fData, varLabels,
+                  pData, sampleNames, 'pData<-', 'exprs<-', 'sampleNames<-', combine)
+
+importFrom(limma, makeContrasts, lmFit, contrasts.fit, eBayes, topTable, arrayWeightsSimple)
+
+importFrom(RColorBrewer, brewer.pal)
+
+importMethodsFrom(vsn, vsn2)
+
+importClassesFrom(oligoClasses, 'GeneFeatureSet', 'ExonFeatureSet')
+
+importFrom(annotate, getAnnMap)
+importFrom(AnnotationDbi, mget)
+
+importFrom(XML, xmlParse, getNodeSet, xmlAttrs, xmlValue, xmlToList)
+
+importFrom(hopach, hopach, distancematrix, dplot)
+
+importFrom(genefilter, genefilter, filterfun, pOverA)
+
+export(
+       runAffyQC,
+       quantileColorHM,
+       plotArrayHopach,
+       parseARR,
+       importAffyData,
+       batchVSN,
+       batchQC,
+       plotExonGenomeMap,
+       plotGeneExonNorm,
+       drawMadFilteredHeatMap,
+       heatmapByGOCat,
+       heatmapProbeSubsets,
+       annotateExons,
+       deriveSignature,
+       probablyExpressed,
+       getVariableSignatures,
+       getAllSignatures,
+       getPairwiseDiffs,
+       getVariablePairwiseDiffs,
+       affyClinWeb,
+       oligoClinWeb,
+       rgClinWeb,
+       reannoClinWeb,
+       drugClinWeb,
+       makeExonChrData,
+       subsetGeneExonData,
+       altSpliceMaxZ,
+       altSpliceCorrelation,
+       altSpliceLimma,
+       altSpliceMclust,
+       altSpliceAnova,
+       calcGeneNormExons,
+       filterByDABG,
+       ComBatEset,
+       vsnrma,
+       titanVSN,
+       output2MEV,
+       plotPCA,
+       plotQcPCA,
+       qcPCA,
+       findAssayFiles,
+       assignEsetGender
+       )
+

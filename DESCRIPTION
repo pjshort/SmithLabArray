@@ -1,0 +1,17 @@
+Package: SmithLabArray
+Version: 0.5.9
+Date: 2013-04-26
+Title: Miscellaneous microarray data maniplation functions.
+Description: This package contains a set of functions designed to make life a little easier when analysing Affymetrix data. Some of the functions can also be used with our old spotted MEDIANTE array data. This package is designed for internal use only.
+Author: Tim F. Rayner
+Maintainer: Tim F. Rayner <tfrayner@gmail.com>
+Depends: R (>= 2.10.0), Biobase, limma
+Imports: gplots, Biobase, methods, limma, RColorBrewer, RSQLite, affy,
+        annotate, hopach, vsn, XML, DBI, AnnotationDbi, genefilter,
+        oligoClasses
+Suggests: snow, arrayQualityMetrics, GenomeGraphs, biomaRt, DBI,
+        RSQLite, ClinStudyWeb, mclust, affy, ALL, WriteXLS, rgl, edd,
+        oligo
+License: GPL (>= 2)
+Packaged: 2013-04-25 16:52:57 UTC; tfrayner
+Built: R 3.1.2; ; 2015-03-10 17:34:06 UTC; unix
